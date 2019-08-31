@@ -20,8 +20,18 @@ public:
 			}
 			for(unsigned int i=size;i < num.size();i++)
 			{
-				result.push_back(num[index.])
+				result.push_back(num[index.front()]);
+				while (!index.empty()&&num[i]>=num[index.back()])
+				{
+					index.pop_back();
+				}
+				if (!index.empty() && index.front() <= int(i - size))
+					index.pop_front();
+				index.push_back(i);
 			}
+			result.push_back(num[index.front()]);
 		}
+		return result;
+
 	}
 };
