@@ -18,5 +18,8 @@
     <ClCompile Include="滑动窗口的最大值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="矩阵中的路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
