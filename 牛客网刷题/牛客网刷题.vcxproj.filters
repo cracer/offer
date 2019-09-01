@@ -21,5 +21,14 @@
     <ClCompile Include="矩阵中的路径.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="据出现次数，统计前K项语言.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="子串数量最大值(笔试).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="机器人的运动范围.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

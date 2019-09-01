@@ -115,6 +115,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="子串数量最大值(笔试).cpp" />
+    <ClCompile Include="据出现次数，统计前K项语言.cpp" />
+    <ClCompile Include="机器人的运动范围.cpp" />
     <ClCompile Include="滑动窗口的最大值.cpp" />
     <ClCompile Include="矩阵中的路径.cpp" />
   </ItemGroup>
