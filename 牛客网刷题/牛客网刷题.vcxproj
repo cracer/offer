@@ -119,6 +119,7 @@
     <ClCompile Include="二叉树的第K个结点.cpp" />
     <ClCompile Include="删除链表中重复的结点.cpp" />
     <ClCompile Include="子串数量最大值(笔试).cpp" />
+    <ClCompile Include="字符流中第一个不重复的字符.cpp" />
     <ClCompile Include="对称的二叉树.cpp" />
     <ClCompile Include="序列化二叉树.cpp" />
     <ClCompile Include="把二叉树打印成多行.cpp" />
@@ -128,6 +129,7 @@
     <ClCompile Include="按之字形顺序打印二叉树.cpp" />
     <ClCompile Include="滑动窗口的最大值.cpp" />
     <ClCompile Include="矩阵中的路径.cpp" />
+    <ClCompile Include="链表中环的入口节点.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
