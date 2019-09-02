@@ -60,5 +60,23 @@
     <ClCompile Include="字符流中第一个不重复的字符.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="表示数值的字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="正则表达式匹配.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="构建乘积数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组中重复的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="把字符串转换成整数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="不用加减乘除做加法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

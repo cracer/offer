@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="不用加减乘除做加法.cpp" />
     <ClCompile Include="二叉树的下一个节点.cpp" />
     <ClCompile Include="二叉树的第K个结点.cpp" />
     <ClCompile Include="删除链表中重复的结点.cpp" />
@@ -123,12 +124,17 @@
     <ClCompile Include="对称的二叉树.cpp" />
     <ClCompile Include="序列化二叉树.cpp" />
     <ClCompile Include="把二叉树打印成多行.cpp" />
+    <ClCompile Include="把字符串转换成整数.cpp" />
     <ClCompile Include="据出现次数，统计前K项语言.cpp" />
     <ClCompile Include="数据流中的中位数.cpp" />
+    <ClCompile Include="数组中重复的数字.cpp" />
     <ClCompile Include="机器人的运动范围.cpp" />
     <ClCompile Include="按之字形顺序打印二叉树.cpp" />
+    <ClCompile Include="构建乘积数组.cpp" />
+    <ClCompile Include="正则表达式匹配.cpp" />
     <ClCompile Include="滑动窗口的最大值.cpp" />
     <ClCompile Include="矩阵中的路径.cpp" />
+    <ClCompile Include="表示数值的字符串.cpp" />
     <ClCompile Include="链表中环的入口节点.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
