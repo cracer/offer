@@ -30,5 +30,29 @@
     <ClCompile Include="机器人的运动范围.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数据流中的中位数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树的第K个结点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="序列化二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="把二叉树打印成多行.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="按之字形顺序打印二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="对称的二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树的下一个节点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="删除链表中重复的结点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
