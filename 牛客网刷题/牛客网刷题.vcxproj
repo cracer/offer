@@ -118,6 +118,7 @@
     <ClCompile Include="不用加减乘除做加法.cpp" />
     <ClCompile Include="二叉树的下一个节点.cpp" />
     <ClCompile Include="二叉树的第K个结点.cpp" />
+    <ClCompile Include="京东合唱队问题.cpp" />
     <ClCompile Include="删除链表中重复的结点.cpp" />
     <ClCompile Include="和为S的两个数字.cpp" />
     <ClCompile Include="和为S的连续正数序列.cpp" />
