@@ -5,6 +5,7 @@
 #include <set>
 using namespace std;
 
+//·Âº¯Êý
 typedef map<string, int>::iterator CountIte;
 struct compare
 {
