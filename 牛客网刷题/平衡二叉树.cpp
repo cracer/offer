@@ -21,7 +21,7 @@ public:
 		return IsBalance_Solution(pRoot->left) && IsBalance_Solution(pRoot->right);
 	}
 
-	int TreeDepth(TreeNode* pRoot)
+	int TreeDepth(TreeNode* pRoot)//二叉树的深度
 	{
 		int depth = 0;
 		if (pRoot == nullptr)
