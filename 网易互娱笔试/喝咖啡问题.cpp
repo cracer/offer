@@ -10,7 +10,7 @@ int drinkCoffee(int k, int m, set<int> s)
 	for (int i = 1; i <= 30; i++)
 	{
 		if (noDrink == k)
-		{
+		{ 
 			res++;
 			noDrink = 0;
 			continue;
@@ -28,7 +28,7 @@ int drinkCoffee(int k, int m, set<int> s)
 	return res;
 }
 
-int main()
+int main2()
 {
 	int cnt;
 	cin >> cnt;

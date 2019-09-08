@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "网易互娱笔试", "Project1.vcxproj", "{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "牛客网刷题进阶", "..\牛客网刷题进阶\牛客网刷题进阶.vcxproj", "{98A96380-51D0-40A7-A796-C9F11EE63425}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "牛客网刷题", "..\牛客网刷题\牛客网刷题.vcxproj", "{CDE5E4C0-718A-4880-A79A-6AB0A7BC424F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "网易互娱笔试", "网易互娱笔试.vcxproj", "{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,12 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Debug|Win32.Build.0 = Debug|Win32
+		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Debug|x64.ActiveCfg = Debug|Win32
+		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Release|Win32.ActiveCfg = Release|Win32
+		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Release|Win32.Build.0 = Release|Win32
+		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Release|x64.ActiveCfg = Release|Win32
 		{98A96380-51D0-40A7-A796-C9F11EE63425}.Debug|Win32.ActiveCfg = Debug|Win32
 		{98A96380-51D0-40A7-A796-C9F11EE63425}.Debug|Win32.Build.0 = Debug|Win32
 		{98A96380-51D0-40A7-A796-C9F11EE63425}.Debug|x64.ActiveCfg = Debug|x64
@@ -33,12 +39,6 @@ Global
 		{CDE5E4C0-718A-4880-A79A-6AB0A7BC424F}.Release|Win32.Build.0 = Release|Win32
 		{CDE5E4C0-718A-4880-A79A-6AB0A7BC424F}.Release|x64.ActiveCfg = Release|x64
 		{CDE5E4C0-718A-4880-A79A-6AB0A7BC424F}.Release|x64.Build.0 = Release|x64
-		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Debug|Win32.Build.0 = Debug|Win32
-		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Debug|x64.ActiveCfg = Debug|Win32
-		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Release|Win32.ActiveCfg = Release|Win32
-		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Release|Win32.Build.0 = Release|Win32
-		{C7D8BB1C-59C6-4436-8362-FE4FFFF3F98C}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

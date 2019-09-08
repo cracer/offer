@@ -24,5 +24,8 @@
     <ClCompile Include="喝咖啡问题.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="九宫格问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

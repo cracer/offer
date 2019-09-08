@@ -65,6 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="九宫格问题.cpp" />
     <ClCompile Include="二叉树层次比较大小.cpp" />
     <ClCompile Include="喝咖啡问题.cpp" />
     <ClCompile Include="二进制回文数.cpp" />
