@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="单调栈结构.cpp" />
+    <ClCompile Include="派对的最大快乐值.cpp" />
+    <ClCompile Include="矩阵的最小路径和.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
