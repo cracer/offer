@@ -1,11 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int 
+int Jiugongge(int rows,int columns,int** arr)
+{
+	int a = 1, b = 1;//a行b列 左上角
+	int c = rows, d = columns;//c行d列 右上角
+	return 0;
+}
 
 
 
-int main()
+
+int main4()
 {
 	int num;//九宫格个数
 	cin >> num;
@@ -13,13 +19,15 @@ int main()
 	{
 		int  rows, columns;
 		cin >> rows >> columns;
-		int **arr = new int*[rows];//rows行3列
-		for (int j = 0; j < rows; j++)
+		int **arr = new int*[rows];
+		for (int j = 1; j <= rows; j++)
 		{
 			arr[j] = new int[columns];
-			for (int k = 0; k < columns; k++)
+			for (int k = 1; k <= columns; k++)
 				cin >> arr[j][k];
 		}
+
+
 	}
 	system("pause");
 	return 0;
