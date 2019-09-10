@@ -25,3 +25,83 @@
 ÑùÀýÊä³ö
 5
  */
+
+#include <vector>
+#include <iostream>
+#include <queue>
+#include <map>
+#include <unordered_map>
+using namespace std;
+
+
+int CountKillProcess1(vector<int> &son, vector<int> &parent,int killNum)
+{
+	vector<int> v;
+	queue<int> q{ {killNum} };
+	unordered_map<int, vector<int> > u;
+	for (int i = 0; i < (int)parent.size(); i++)
+	{
+		u[parent[i]].push_back(son[i]);
+	}
+	while (!q.empty())
+	{
+		int tmp = q.front();
+		q.pop();
+		v.push_back(tmp);
+		for(auto i : u[tmp])
+		{
+			q.push(i);
+		}
+	}
+	return v.size();
+
+}
+
+void helper(int kill, unordered_map<int, vector<int>>& m, vector<int>& res) 
+{
+	res.push_back(kill);
+	for (int p : m[kill]) 
+	{
+		helper(p, m, res);
+	}
+}
+
+int CountKillProcess(vector<int> &son, vector<int> &parent, int killNum)
+{
+	vector<int> v;
+	
+	unordered_map<int, vector<int> > u;
+	for (int i = 0; i < (int)parent.size(); i++)
+	{
+		u[parent[i]].push_back(son[i]);
+	}
+	helper(killNum, u, v);
+	
+	return v.size();
+}
+
+
+
+
+int main()
+{
+	vector<int> vSon{3,1,5,21,10};
+	// int stmp, ptmp;
+	// do 
+	// {
+	// 	cin >> stmp;
+	// 	vSon.push_back(stmp);
+	// } while (getchar() != '\n');
+	vector<int> vParent{0,3,3,1,5};
+	// do 
+	// {
+	// 	cin >> ptmp;
+	// 	vParent.push_back(ptmp);
+	// } while (getchar() != '\n');
+	int num = 3;
+	// cin >> num;
+
+	cout << CountKillProcess(vSon, vParent, num) << endl;
+	system("pause");
+	return 0;
+}
