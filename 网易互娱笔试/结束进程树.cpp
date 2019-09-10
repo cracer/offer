@@ -83,7 +83,7 @@ int CountKillProcess(vector<int> &son, vector<int> &parent, int killNum)
 
 
 
-int main()
+int main3333()
 {
 	vector<int> vSon{3,1,5,21,10};
 	// int stmp, ptmp;
