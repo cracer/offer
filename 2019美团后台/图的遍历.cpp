@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int arr[100005];
+/*最短路径 = 2*(n-1) - maxDepth (n-1)为边的数量*/
 int main()
 {
 	int n;
@@ -19,6 +20,7 @@ int main()
 	{
 		maxDepth = arr[i] > maxDepth ? arr[i] : maxDepth;
 	}
+	cout << "maxDepth：" << maxDepth << endl;
 	cout << 2 * (n - 1) - maxDepth << endl;
 	system("pause");
 	return 0;
