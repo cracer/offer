@@ -2,7 +2,7 @@
 using namespace std;
 int arr[100005];
 /*最短路径 = 2*(n-1) - maxDepth (n-1)为边的数量*/
-int main()
+int main111()
 {
 	int n;
 	cin >> n;
