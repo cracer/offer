@@ -43,7 +43,7 @@ int fun(vector<int>& arr, int k, int t) {
 	}
 	return count;
 }
-int main() {
+int main123() {
 	int n, k, t;
 	cin >> n >> k >> t;
 	vector<int> arr;

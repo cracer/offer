@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "历年美团后台", "..\20
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "奇安信笔试", "奇安信笔试\奇安信笔试.vcxproj", "{08B0825F-614D-41DA-ACFE-FF600B33F8BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2020美团后台", "..\2020美团后台\2020美团后台.vcxproj", "{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C-C++面试常见问题整理", "..\C-C++面试常见问题整理\C-C++面试常见问题整理.vcxproj", "{947F6FBE-6EF2-488B-A40E-F296FB5127FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -59,6 +63,22 @@ Global
 		{08B0825F-614D-41DA-ACFE-FF600B33F8BA}.Release|Win32.Build.0 = Release|Win32
 		{08B0825F-614D-41DA-ACFE-FF600B33F8BA}.Release|x64.ActiveCfg = Release|x64
 		{08B0825F-614D-41DA-ACFE-FF600B33F8BA}.Release|x64.Build.0 = Release|x64
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Debug|Win32.Build.0 = Debug|Win32
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Debug|x64.ActiveCfg = Debug|x64
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Debug|x64.Build.0 = Debug|x64
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Release|Win32.ActiveCfg = Release|Win32
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Release|Win32.Build.0 = Release|Win32
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Release|x64.ActiveCfg = Release|x64
+		{0E8DEF52-1DBF-45CD-A9DD-9483090B87F0}.Release|x64.Build.0 = Release|x64
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Debug|Win32.Build.0 = Debug|Win32
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Debug|x64.ActiveCfg = Debug|x64
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Debug|x64.Build.0 = Debug|x64
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Release|Win32.ActiveCfg = Release|Win32
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Release|Win32.Build.0 = Release|Win32
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Release|x64.ActiveCfg = Release|x64
+		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

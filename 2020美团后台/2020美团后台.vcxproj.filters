@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="图的遍历.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="区间统计.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="最长全1串.cpp">
+    <ClCompile Include="数字转汉字.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
