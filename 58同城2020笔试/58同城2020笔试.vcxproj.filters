@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="引用问题.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="直接插入排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="最大堆排序.cpp">
+    <ClCompile Include="58分饼干问题.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

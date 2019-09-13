@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cstdlib>
 
-void main(void)
+void main111(void)
 {
 	int a[5] = { 1,2,3,4,5 };
 	// int *ptr = (int*)(&a + 1);//2,5

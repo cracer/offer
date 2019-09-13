@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{947F6FBE-6EF2-488B-A40E-F296FB5127FF}</ProjectGuid>
-    <RootNamespace>CC面试常见问题整理</RootNamespace>
+    <ProjectGuid>{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}</ProjectGuid>
+    <RootNamespace>My58同城2020笔试</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,9 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="最大堆排序.cpp" />
-    <ClCompile Include="引用问题.cpp" />
-    <ClCompile Include="直接插入排序.cpp" />
+    <ClCompile Include="58分饼干问题.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

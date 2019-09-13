@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2020美团后台", "..\2020
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C-C++面试常见问题整理", "..\C-C++面试常见问题整理\C-C++面试常见问题整理.vcxproj", "{947F6FBE-6EF2-488B-A40E-F296FB5127FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58同城2020笔试", "..\58同城2020笔试\58同城2020笔试.vcxproj", "{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -79,6 +81,14 @@ Global
 		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Release|Win32.Build.0 = Release|Win32
 		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Release|x64.ActiveCfg = Release|x64
 		{947F6FBE-6EF2-488B-A40E-F296FB5127FF}.Release|x64.Build.0 = Release|x64
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Debug|Win32.Build.0 = Debug|Win32
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Debug|x64.ActiveCfg = Debug|x64
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Debug|x64.Build.0 = Debug|x64
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Release|Win32.ActiveCfg = Release|Win32
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Release|Win32.Build.0 = Release|Win32
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Release|x64.ActiveCfg = Release|x64
+		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
