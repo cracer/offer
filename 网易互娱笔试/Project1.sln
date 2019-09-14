@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "牛客网刷题进阶", "..\牛客网刷题进阶\牛客网刷题进阶.vcxproj", "{98A96380-51D0-40A7-A796-C9F11EE63425}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C-C++面试常见问题整理", "..\C-C++面试常见问题整理\C-C++面试常见问题整理.vcxproj", "{947F6FBE-6EF2-488B-A40E-F296FB5127FF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58同城2020笔试", "..\58同城2020笔试\58同城2020笔试.vcxproj", "{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leetcode刷题", "..\leetcode刷题\leetcode刷题.vcxproj", "{1B6753B8-7E05-4AEE-AB66-B5DA85155604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,12 @@ Global
 		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Release|Win32.Build.0 = Release|Win32
 		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Release|x64.ActiveCfg = Release|x64
 		{9367A35E-1CD5-44F2-AFD4-8944C9E749F3}.Release|x64.Build.0 = Release|x64
+		{1B6753B8-7E05-4AEE-AB66-B5DA85155604}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B6753B8-7E05-4AEE-AB66-B5DA85155604}.Debug|Win32.Build.0 = Debug|Win32
+		{1B6753B8-7E05-4AEE-AB66-B5DA85155604}.Debug|x64.ActiveCfg = Debug|Win32
+		{1B6753B8-7E05-4AEE-AB66-B5DA85155604}.Release|Win32.ActiveCfg = Release|Win32
+		{1B6753B8-7E05-4AEE-AB66-B5DA85155604}.Release|Win32.Build.0 = Release|Win32
+		{1B6753B8-7E05-4AEE-AB66-B5DA85155604}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
