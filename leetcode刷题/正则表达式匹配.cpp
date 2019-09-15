@@ -80,18 +80,17 @@ public:
 				}
 			}
 		}
-		else {
-			if (sChar == pChar || pChar == '.'){
-				if (subMatch(sIndex + 1, pIndex + 1, s, p)){
+		else 
+		{
+			if (sChar == pChar || pChar == '.')
+			{
+				if (subMatch(sIndex + 1, pIndex + 1, s, p))
 					return true;
-				}
-				else {
+				else 
 					return false;
-				}
 			}
-			else {
+			else
 				return false;
-			}
 		}
 		//this place
 		return false;

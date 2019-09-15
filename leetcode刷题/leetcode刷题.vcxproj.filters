@@ -24,5 +24,14 @@
     <ClCompile Include="最长有效括号.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="通配符匹配问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最大子序和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="不同路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
